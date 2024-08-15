@@ -1,12 +1,62 @@
-h1 {
-    size : 3rem;
-    color : lightslategray;
-    font-family : 'Roboto', sans-serif;
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2 {
-    size : 1.5rem;
-    color : lightslategray;
+body {
+    background-color: #161229;
+}
+
+.Main_Header {
+    width : 100%;
+    margin : 0;
+    padding : 0.5rem;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color : #3a3941;
+}
+
+.Main_Header h1 {
+    font-size : 1.5rem;
+    color : rgb(151, 164, 177);
     font-family : 'Roboto', sans-serif;
+    padding-left: 1rem;
+}
+.Main_Header a {
+    text-decoration: none;
+}
+
+.Directory {
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    padding : 1rem;
+    padding-right : 2rem;
+    gap : 1rem;
+    color : rgb(151, 164, 177);
+}
+
+.Directory a:link, a:visited {
+    text-decoration : none;
+    color : rgb(151, 164, 177);
+    font-family : 'Roboto', sans-serif;
+}
+.Directory a:hover{
+    color : white;
+}
+
+.Cool_Intro {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    padding : 1rem;
+}
+
+.Cool_Intro  h1{
+    font-size : 5rem;
+    color : rgb(151, 164, 177);
+    font-family : 'Roboto', sans-serif;
+    padding-top : 6rem;
 }
