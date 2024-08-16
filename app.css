@@ -16,6 +16,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color : #3a3941;
+    z-index: 10000;
+    position: fixed;
 }
 
 .Main_Header h1 {
@@ -52,12 +54,32 @@ body {
     display : flex;
     justify-content : center;
     align-items : center;
-    padding : 1rem;
+    padding : 0;
 }
 
-.Cool_Intro  h1{
+.Video_Blur {
+    height : 50rem;
+    width : 110rem;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 0;
+    margin-top : -20rem;
+}
+
+.Cool_Intro h1 {
     font-size : 5rem;
     color : rgb(151, 164, 177);
     font-family : 'Roboto', sans-serif;
     padding-top : 6rem;
+    z-index: 1;
+}
+
+.Cool_Intro video {
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 100%;
+    object-fit : cover;
+    z-index : -1;
 }
