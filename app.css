@@ -1,3 +1,5 @@
+/* General Formatting */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,8 @@ body {
     background-color: #161229;
 }
 
+
+/* General Header */
 .Main_Header {
     width : 100%;
     margin : 0;
@@ -48,6 +52,7 @@ body {
     color : white;
 }
 
+/* Main Page */
 .Cool_Intro {
     display : flex;
     justify-content : center;
@@ -60,4 +65,33 @@ body {
     color : rgb(151, 164, 177);
     font-family : 'Roboto', sans-serif;
     padding-top : 6rem;
+}
+
+/* About Page */
+.Description_Me {
+    display : flex;
+    align-items : center;
+    padding : 1rem;
+}
+
+.Description_Me img {
+    border-radius : 50%;
+}
+
+.Description_Me h1 {
+    font-size : 5rem;
+    color : rgb(151, 164, 177);
+    font-family : 'Roboto', sans-serif;
+    padding-top : 6rem;
+}
+
+.Description_Me h2 {
+    font-size : 3rem;
+    color : rgb(151, 164, 177);
+    font-family : 'Roboto', sans-serif;
+    padding-top : 6rem;
+}
+
+.Name_Title {
+    vertical-align : bottom;
 }
