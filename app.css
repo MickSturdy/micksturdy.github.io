@@ -72,6 +72,7 @@ body {
     z-index: 3;
     text-align : center;
     position : fixed;
+    padding : 2rem;
     padding-top : 12rem;
 }
 
@@ -108,20 +109,21 @@ body {
     align-items : center;
     z-index: 5;
     position : absolute;
-    margin-top : -10rem;
+    margin-top : -6.5rem;
 }
 .Triangle_Left {
     width: 0;
 	height: 0;
-	border-right: 50rem solid transparent;
-	border-bottom: 10rem solid #161229;
+    margin : 0 auto;
+	border-right: 50vw solid transparent;
+	border-bottom: 15vh solid #161229;    
 }
 .Triangle_Right {
     transform : rotateY(180deg);
     width: 0;
 	height: 0;
-	border-right: 50rem solid transparent;
-	border-bottom: 10rem solid #161229;
+	border-right: 50vw solid transparent;
+	border-bottom: 15vh solid #161229;
 }
 
 .Main_Content {
