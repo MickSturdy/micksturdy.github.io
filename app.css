@@ -92,29 +92,44 @@ body {
 .Description_Me {
     display : flex;
     align-items : center;
-    padding : 1rem;
+    padding : 3rem;
+    padding-top : 5.5rem;
+
 }
 
 .Description_Me img {
+    width : 15rem;
+    height : 15rem;
+    border: #ffffff solid 0.5rem;
     border-radius : 50%;
+    margin-left : 2rem;
+    margin-top : 2rem;
+    margin-right : 0.5rem;
 }
 
 .Description_Me h1 {
-    font-size : 5rem;
+    font-size : 4rem;
     color : rgb(151, 164, 177);
     font-family : 'Roboto', sans-serif;
-    padding-top : 6rem;
+    padding-top : 1rem;
+    margin-left : -0.2rem;
 }
 
 .Description_Me h2 {
-    font-size : 3rem;
-    color : rgb(151, 164, 177);
+    font-size : 1.5rem;
+    color : rgb(104, 112, 121);
     font-family : 'Roboto', sans-serif;
-    padding-top : 6rem;
+}
+
+.Description_Me h3 {
+    font-size : 1rem;
+    color : rgb(104, 112, 121);
+    font-family : 'Roboto', sans-serif;
 }
 
 .Name_Title {
     vertical-align : bottom;
+    padding-left : 1.5rem;
 }
 
 
