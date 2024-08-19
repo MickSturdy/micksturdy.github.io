@@ -152,6 +152,32 @@ body {
     justify-content : center;
 }
 
+.Sub_Content {
+    display : flex;
+    height : 60vh;
+    width : 100%;
+    align-content: center;
+    padding : 5rem;
+    border : 1vw solid #ffffff;
+}
+.Sub_Content img {
+    height : 70%;
+    width : 50%;
+    padding-left : 4rem;
+}
+
+.Sub_Content_Text h1{
+    font-size : 1.7rem;
+    color : rgb(151, 164, 177);
+    font-family : 'Roboto', sans-serif;
+}
+.Sub_Content_Text p{
+    font-size : 1rem;
+    color : rgb(151, 164, 177);
+    font-family : 'Roboto', sans-serif;
+}
+
+
 /* About Page */
 .Description_Me {
     display : flex;
